@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace Shared
@@ -8,7 +7,7 @@ namespace Shared
     {
         public static string Join<T>(this IEnumerable<T> src)
         {
-            return String.Join(String.Empty, src);
+            return string.Join(string.Empty, src);
         }
 
         public static IEnumerable<string> GetPermutations(this string str)
