@@ -125,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals", "RomanNumer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermutedMultiples", "PermutedMultiples\PermutedMultiples.csproj", "{110F62D2-69C9-47E6-B26D-DD3BD0EC1B61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinatoricSelections", "CombinatoricSelections\CombinatoricSelections.csproj", "{6E538BD6-9374-4F7A-9A52-12AB31B48357}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -347,6 +349,10 @@ Global
 		{110F62D2-69C9-47E6-B26D-DD3BD0EC1B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{110F62D2-69C9-47E6-B26D-DD3BD0EC1B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{110F62D2-69C9-47E6-B26D-DD3BD0EC1B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E538BD6-9374-4F7A-9A52-12AB31B48357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E538BD6-9374-4F7A-9A52-12AB31B48357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E538BD6-9374-4F7A-9A52-12AB31B48357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E538BD6-9374-4F7A-9A52-12AB31B48357}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -405,5 +411,6 @@ Global
 		{957BA9EE-12E5-4AC1-8DD5-14CC165C62D7} = {DE51D226-CAB4-4662-9FCE-050DC9D59861}
 		{DDAD1930-5F92-4BE1-81F6-1C106E5F208F} = {354E796D-E170-41E1-8E29-DC2B4B89D92E}
 		{110F62D2-69C9-47E6-B26D-DD3BD0EC1B61} = {DE51D226-CAB4-4662-9FCE-050DC9D59861}
+		{6E538BD6-9374-4F7A-9A52-12AB31B48357} = {DE51D226-CAB4-4662-9FCE-050DC9D59861}
 	EndGlobalSection
 EndGlobal
