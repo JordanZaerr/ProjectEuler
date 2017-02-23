@@ -6,6 +6,25 @@ namespace Shared
 {
     public static class Looping
     {
+        /// <summary>
+        /// Return false to break out of the loop.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list"></param>
+        /// <param name="action"></param>
+        /// <returns>Returns true if the loop was broken out of, otherwise false.</returns>
+        public static bool EachBreakable<T>(this IEnumerable<T> list, Func<T, bool> action)
+        {
+            if (list == null) return false;
+
+            foreach (var t in list)
+            {
+                if (!action(t))
+                    return true;
+            }
+            return false;
+        }
+
         public static void Each<T>(this IEnumerable<T> list, Action<T> action)
         {
             if (list == null) return;
