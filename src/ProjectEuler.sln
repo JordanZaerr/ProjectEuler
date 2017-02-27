@@ -131,6 +131,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerHands", "PokerHands\Po
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LychrelNumber", "LychrelNumber\LychrelNumber.csproj", "{A486D149-4466-4921-A44F-6617C9F16D3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerfulDigitSums", "PowerfulDigitSums\PowerfulDigitSums.csproj", "{F56BEB93-E8FE-41FC-90AE-75BBB9EF6D2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -365,6 +367,10 @@ Global
 		{A486D149-4466-4921-A44F-6617C9F16D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A486D149-4466-4921-A44F-6617C9F16D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A486D149-4466-4921-A44F-6617C9F16D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56BEB93-E8FE-41FC-90AE-75BBB9EF6D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56BEB93-E8FE-41FC-90AE-75BBB9EF6D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56BEB93-E8FE-41FC-90AE-75BBB9EF6D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56BEB93-E8FE-41FC-90AE-75BBB9EF6D2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -426,5 +432,6 @@ Global
 		{6E538BD6-9374-4F7A-9A52-12AB31B48357} = {DE51D226-CAB4-4662-9FCE-050DC9D59861}
 		{CDDA4462-F96D-42F6-9EFD-B76AC53817EB} = {DE51D226-CAB4-4662-9FCE-050DC9D59861}
 		{A486D149-4466-4921-A44F-6617C9F16D3A} = {DE51D226-CAB4-4662-9FCE-050DC9D59861}
+		{F56BEB93-E8FE-41FC-90AE-75BBB9EF6D2D} = {DE51D226-CAB4-4662-9FCE-050DC9D59861}
 	EndGlobalSection
 EndGlobal
