@@ -37,7 +37,7 @@ namespace Shared
 
         public static long Product(this IEnumerable<int> src)
         {
-            return src.Aggregate(1l, (total, current) => total * current);
+            return src.Aggregate(1L, (total, current) => total * current);
         }
     }
 }
