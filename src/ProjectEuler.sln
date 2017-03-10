@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareRootConvergents", "Sq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiralPrimes", "SpiralPrimes\SpiralPrimes.csproj", "{4AD177DB-5119-4245-8B0E-230CC339A23F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XorDecryption", "XorDecryption\XorDecryption.csproj", "{4AE9AE0E-B514-4D09-83C8-8B27F78E6EE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -383,6 +385,10 @@ Global
 		{4AD177DB-5119-4245-8B0E-230CC339A23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AD177DB-5119-4245-8B0E-230CC339A23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AD177DB-5119-4245-8B0E-230CC339A23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE9AE0E-B514-4D09-83C8-8B27F78E6EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE9AE0E-B514-4D09-83C8-8B27F78E6EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE9AE0E-B514-4D09-83C8-8B27F78E6EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE9AE0E-B514-4D09-83C8-8B27F78E6EE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -447,5 +453,6 @@ Global
 		{F56BEB93-E8FE-41FC-90AE-75BBB9EF6D2D} = {DE51D226-CAB4-4662-9FCE-050DC9D59861}
 		{CD0D115D-F3DA-463B-AEC8-2CB8B5F5322F} = {DE51D226-CAB4-4662-9FCE-050DC9D59861}
 		{4AD177DB-5119-4245-8B0E-230CC339A23F} = {DE51D226-CAB4-4662-9FCE-050DC9D59861}
+		{4AE9AE0E-B514-4D09-83C8-8B27F78E6EE4} = {DE51D226-CAB4-4662-9FCE-050DC9D59861}
 	EndGlobalSection
 EndGlobal
