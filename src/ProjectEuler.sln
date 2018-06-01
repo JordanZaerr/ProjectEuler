@@ -153,6 +153,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "91-100", "91-100", "{D7CD2D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareDigitChain", "SquareDigitChain\SquareDigitChain.csproj", "{36C6A102-8F57-4145-B08E-68F0FE8841A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitFactorialChains", "DigitFactorialChains\DigitFactorialChains.csproj", "{25D676F5-D5F2-41FD-BBFC-DD0BC6BEE781}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -419,6 +421,10 @@ Global
 		{36C6A102-8F57-4145-B08E-68F0FE8841A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36C6A102-8F57-4145-B08E-68F0FE8841A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36C6A102-8F57-4145-B08E-68F0FE8841A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D676F5-D5F2-41FD-BBFC-DD0BC6BEE781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D676F5-D5F2-41FD-BBFC-DD0BC6BEE781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D676F5-D5F2-41FD-BBFC-DD0BC6BEE781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D676F5-D5F2-41FD-BBFC-DD0BC6BEE781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -488,6 +494,7 @@ Global
 		{6BB3C29E-3B68-4670-9B67-ED8606DF3E8B} = {BB0C4789-25FF-4508-81DF-8AA03732E367}
 		{49B5A271-8FAA-4C96-9AA4-A45C1E859372} = {FAC35097-9865-467C-83F4-76648CB0360E}
 		{36C6A102-8F57-4145-B08E-68F0FE8841A4} = {D7CD2D70-8854-4425-86C1-4F1D6060E609}
+		{25D676F5-D5F2-41FD-BBFC-DD0BC6BEE781} = {FAC35097-9865-467C-83F4-76648CB0360E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B2A65B0-7FAA-41AF-9DE9-AAC93F673BCA}
