@@ -145,6 +145,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclicalFigurateNumbers", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerfulDigitCounts", "PowerfulDigitCounts\PowerfulDigitCounts.csproj", "{6BB3C29E-3B68-4670-9B67-ED8606DF3E8B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "71-80", "71-80", "{FAC35097-9865-467C-83F4-76648CB0360E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasscodeDerivation", "PasscodeDerivation\PasscodeDerivation.csproj", "{49B5A271-8FAA-4C96-9AA4-A45C1E859372}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -403,6 +407,10 @@ Global
 		{6BB3C29E-3B68-4670-9B67-ED8606DF3E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BB3C29E-3B68-4670-9B67-ED8606DF3E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BB3C29E-3B68-4670-9B67-ED8606DF3E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B5A271-8FAA-4C96-9AA4-A45C1E859372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B5A271-8FAA-4C96-9AA4-A45C1E859372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B5A271-8FAA-4C96-9AA4-A45C1E859372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B5A271-8FAA-4C96-9AA4-A45C1E859372}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -470,6 +478,7 @@ Global
 		{4AE9AE0E-B514-4D09-83C8-8B27F78E6EE4} = {DE51D226-CAB4-4662-9FCE-050DC9D59861}
 		{2B09B171-DABD-4DB2-8CB3-91008C8D045A} = {BB0C4789-25FF-4508-81DF-8AA03732E367}
 		{6BB3C29E-3B68-4670-9B67-ED8606DF3E8B} = {BB0C4789-25FF-4508-81DF-8AA03732E367}
+		{49B5A271-8FAA-4C96-9AA4-A45C1E859372} = {FAC35097-9865-467C-83F4-76648CB0360E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B2A65B0-7FAA-41AF-9DE9-AAC93F673BCA}
