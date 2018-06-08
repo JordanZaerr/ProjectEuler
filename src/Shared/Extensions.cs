@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Numerics;
 
 namespace Shared
 {
@@ -31,7 +32,10 @@ namespace Shared
             }
         }
 
-
+        public static int SumDigits(this BigInteger number)
+        {
+            return number.ToString().Select(x => x.ToString()).Select(int.Parse).Sum();
+        }
 
         //TODO: Make this better...
         public static List<List<T>> Permutations<T>(this IList<T> items)

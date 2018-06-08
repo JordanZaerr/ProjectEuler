@@ -25,15 +25,10 @@ namespace PowerfulDigitSums
                 .Select(a => new BigInteger(a))
                 .SelectMany(a => Enumerable.Range(start, count)
                     .Select(b => BigInteger.Pow(a, b)))
-                .Select(SumDigits)
+                .Select(x => x.SumDigits())
                 .Max();
 
             Console.WriteLine(results);
-        }
-
-        private static int SumDigits(BigInteger number)
-        {
-            return number.ToString().Select(x => x.ToString()).Select(int.Parse).Sum();
         }
     }
 }

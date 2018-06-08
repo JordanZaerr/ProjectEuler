@@ -161,6 +161,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "201-210", "201-210", "{316A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcealedSquare", "ConcealedSquare\ConcealedSquare.csproj", "{6B7A0BE4-19A8-45D8-9FBD-459106B02A1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvergentsOfE", "ConvergentsOfE\ConvergentsOfE.csproj", "{756ABA00-3043-47BE-9424-F4D209866B8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -439,6 +441,10 @@ Global
 		{6B7A0BE4-19A8-45D8-9FBD-459106B02A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B7A0BE4-19A8-45D8-9FBD-459106B02A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B7A0BE4-19A8-45D8-9FBD-459106B02A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756ABA00-3043-47BE-9424-F4D209866B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756ABA00-3043-47BE-9424-F4D209866B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756ABA00-3043-47BE-9424-F4D209866B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756ABA00-3043-47BE-9424-F4D209866B8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -511,6 +517,7 @@ Global
 		{25D676F5-D5F2-41FD-BBFC-DD0BC6BEE781} = {FAC35097-9865-467C-83F4-76648CB0360E}
 		{76EC8D1B-653F-42F0-A59F-85DCC1DD5066} = {D7CD2D70-8854-4425-86C1-4F1D6060E609}
 		{6B7A0BE4-19A8-45D8-9FBD-459106B02A1C} = {316AABEC-0381-4C67-A28B-F1D4188A6C73}
+		{756ABA00-3043-47BE-9424-F4D209866B8D} = {BB0C4789-25FF-4508-81DF-8AA03732E367}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B2A65B0-7FAA-41AF-9DE9-AAC93F673BCA}
